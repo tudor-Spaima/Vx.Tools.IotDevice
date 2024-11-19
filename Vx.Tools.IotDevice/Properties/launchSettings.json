@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "Vx.Tools.IotDevice": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Local",
+        "BUILD_VERSION": "1.0.0",
+        "LOGGING_PRODUCT": "Prevtech.Babel",
+        "LOGGING_LAYER": "IotDeviceTester",
+        "REGISTER_PIPELINES": "true",
+        "PIPELINE_TENANT_ID": "2",
+        "FUNCT_PIPELINE_CODE": "19C5AB48-2FB8-481E-8566-6B93C552CA16",
+        "FUNCT_PIPELINE_NAME": "IotDeviceTesting",
+        "FUNCT_PIPELINE_DESCRIPTION": "Test IoT Device telemetry ingestion based on defined scenarios",
+        "FUNCT_PIPELINE_REPOSITORY": "[Telemetry][Microservices]"
+      }
+    }
+  }
+}
