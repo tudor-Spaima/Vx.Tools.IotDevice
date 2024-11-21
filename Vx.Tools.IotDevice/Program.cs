@@ -23,7 +23,6 @@ internal class Program
 
             Console.WriteLine("Done.");
 
-            Scenario scenarioEvent = new(new("HostName=babeldev-iothub.azure-devices.net;DeviceId=Scale123;SharedAccessKey=1ClwDq4thYpqKgrxx2qBSn6x0XtZ4YNMfDRT4hBisbc=", "Scale123"));
             scenarioEvent.ExecScenarioC1();
           
         }
